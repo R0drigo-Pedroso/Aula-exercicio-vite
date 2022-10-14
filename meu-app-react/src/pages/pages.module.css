@@ -1,0 +1,13 @@
+.pages-d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rock {
+    background-color: black;
+    color: azure;
+}
