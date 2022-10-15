@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
 .d-flex {
     display: flex;
+    margin: 5%;
 }
+
+

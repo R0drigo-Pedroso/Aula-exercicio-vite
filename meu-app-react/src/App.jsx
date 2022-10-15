@@ -7,37 +7,43 @@ import Rodape from "./components/rodape/Rodape";
 
 /* Importação de Pages */
 import Home from "./pages/Home";
-import Jazz from "./pages/Rock";
-import Rock from "./pages/Jazz";
+import Mpb from "./pages/Mpb";
+import Rock from "./pages/Rock";
 
 /* Importando App css */
-import "./App.css";
+import estilo from "./App.css";
 import Menu from "./components/menu/Menu";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Cabecalho></Cabecalho>
+        <main>
+          <Cabecalho></Cabecalho>
 
-        <section className="d-flex">
-          <Menu></Menu>
+          <section className="d-flex">
+            <section>
+              <Menu></Menu>
+            </section>
 
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <section>
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
 
-            <Route path="/rock">
-              <Rock />
-            </Route>
+                <Route path="/mpb">
+                  <Mpb />
+                </Route>
 
-            <Route path="/jazz">
-              <Jazz />
-            </Route>
-          </Switch>
-        </section>
-        <Rodape></Rodape>
+                <Route path="/rock">
+                  <Rock />
+                </Route>
+              </Switch>
+            </section>
+          </section>
+          <Rodape></Rodape>
+        </main>
       </BrowserRouter>
     </>
   );

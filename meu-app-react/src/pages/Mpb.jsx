@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <div className={estilo.pagesflex}>
-        <h2>Jazz</h2>
+        <h2>MPB</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           beatae nulla nisi minus similique aliquam laboriosam blanditiis esse

@@ -6,9 +6,17 @@ const Menu = () => {
   return (
     <>
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/rock">Jazz</NavLink>
-        <NavLink to="/jazz">Rock</NavLink>
+        <ul>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/mpb">MPB</NavLink>
+          </li>
+          <li>
+            <NavLink to="/rock">Rock</NavLink>
+          </li>
+        </ul>
       </nav>
     </>
   );
