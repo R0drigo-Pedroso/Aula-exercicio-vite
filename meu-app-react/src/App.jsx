@@ -2,13 +2,13 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 /* Importação de components */
-import Cabecalho from "./components/Cabecalho";
-import Rodape from "./components/Rodape";
+import Cabecalho from "./components/cabecalho/Cabecalho";
+import Rodape from "./components/rodape/Rodape";
 
 /* Importação de Pages */
 import Home from "./pages/Home";
-import Rock from "./pages/Rock";
-import Jazz from "./pages/Jazz";
+import Jazz from "./pages/Rock";
+import Rock from "./pages/Jazz";
 
 /* Importando App css */
 import "./App.css";

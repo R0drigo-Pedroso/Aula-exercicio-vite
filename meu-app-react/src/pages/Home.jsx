@@ -1,9 +1,9 @@
-import estilo from "./pages.modules.css";
+import estilo from "./css/pages.module.css";
 
 const Home = () => {
   return (
     <>
-      <div className="pages-d-flex">
+      <div className={estilo.pagesflex}>
         <h2>Home</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium

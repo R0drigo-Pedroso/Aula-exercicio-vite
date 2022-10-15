@@ -1,37 +1,38 @@
-import estilo from "./pages.modules.css";
-const Jazz = () => {
+import estilo from "./css/pages.module.css";
+
+const Home = () => {
   return (
     <>
-      <div className="pages-d-flex">
+      <div className={estilo.pagesflex}>
         <h2>Jazz</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam
-          totam sed nesciunt sit minima velit unde, error itaque possimus
-          praesentium a, quibusdam, eligendi repudiandae illum numquam!
-          Exercitationem officiis quos reprehenderit voluptates illo impedit,
-          doloribus dolores accusantium delectus? Accusantium consectetur
-          suscipit excepturi deleniti iusto, rerum, qui facere at mollitia sunt
-          ad reiciendis quas fugiat laudantium a molestiae ratione esse optio
-          velit quasi! Eius, dignissimos aliquam eos reprehenderit maiores
-          delectus libero adipisci ipsum dolorem repellendus totam illum ab
-          culpa in quo dicta, corporis veniam unde aspernatur nam nemo aut,
-          dolores ducimus veritatis. Voluptate nulla itaque perferendis? Laborum
-          neque officiis praesentium tempora excepturi unde voluptatum
-          repudiandae veritatis harum pariatur mollitia in ea magnam facere
-          dicta aspernatur debitis at repellendus dolorem quas, quaerat sed
-          placeat explicabo. Blanditiis fugit non, deserunt dignissimos
-          reiciendis autem est velit ut alias ipsa repudiandae, odit expedita
-          laborum nam nesciunt obcaecati dolore tempora in dolorum dicta
-          veritatis modi dolorem voluptatum? Incidunt quasi aperiam temporibus
-          neque at nulla officia atque veniam dolorum consequuntur natus quos
-          suscipit architecto, eveniet aut sapiente perspiciatis! Est, neque
-          adipisci! Animi fugit ex tempora iusto ullam saepe officia enim
-          reprehenderit alias nesciunt, aliquid autem possimus vel eum est nemo
-          illum, commodi voluptates quo, asperiores quidem porro?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          beatae nulla nisi minus similique aliquam laboriosam blanditiis esse
+          praesentium veniam quas aspernatur incidunt voluptatem expedita,
+          quisquam officia vitae amet consequuntur pariatur nesciunt quae in!
+          Quae perferendis ea mollitia aliquid tempore dolores exercitationem
+          laborum accusantium ab maiores, odit repellat. Quia fuga iure a, quos
+          voluptas iste necessitatibus explicabo rerum perferendis molestiae
+          sint veniam nisi odit reprehenderit commodi quaerat aut unde qui
+          laboriosam saepe natus culpa! Quo error ducimus ea, quidem amet,
+          ratione voluptate voluptatem ullam incidunt animi veritatis. Error
+          ratione esse repellat voluptates commodi, pariatur laudantium
+          reiciendis reprehenderit adipisci accusamus qui itaque. Tempora dicta
+          cum, iure cumque soluta rerum debitis autem, sint sed corrupti eveniet
+          doloribus enim in fuga nesciunt expedita illum. Reprehenderit,
+          delectus deleniti. Harum odit ad atque beatae! Amet optio voluptatum
+          eum culpa officia eos, exercitationem dolorum ea aut facere ipsa natus
+          necessitatibus praesentium fuga doloremque vitae laborum eveniet quis
+          quibusdam nostrum corrupti. Facere provident praesentium impedit nam
+          corrupti quaerat doloribus fugit, dolorem vero natus assumenda
+          temporibus autem veritatis placeat quas ex nemo sint odit accusantium!
+          Beatae laudantium modi autem, eum rerum cupiditate minima aliquid
+          voluptatibus nisi iusto minus excepturi, sint sequi harum quaerat enim
+          ducimus! In, aspernatur amet.
         </p>
       </div>
     </>
   );
 };
 
-export default Jazz;
+export default Home;
