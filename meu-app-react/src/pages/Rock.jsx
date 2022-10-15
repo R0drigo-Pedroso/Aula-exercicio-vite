@@ -69,10 +69,7 @@ const Home = () => {
           magni fugiat asperiores ab fuga. Fugit temporibus autem possimus
           sapiente voluptatibus assumenda corporis impedit, provident earum
           ipsum esse quaerat ratione. Fuga nisi omnis quo dolor aspernatur,
-          ducimus fugiat quia amet officia obcaecati aut necessitatibus, dolores
-          error consequuntur animi odit inventore reprehenderit earum! Omnis
-          quas, veritatis quis aperiam reiciendis voluptatibus architecto, eos
-          ipsam ullam temporibus, maxime sint asperiores. Quae labore id esse!
+          ducimus fugiat quia amet officia obcaecati aut necessitatibus.
         </p>
       </div>
     </>
